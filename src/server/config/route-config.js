@@ -10,8 +10,8 @@
 
     // *** register routes *** //
     app.use('/', routes);
-    app.use('/api/vi/beers/', beerRoutes);
+    app.use('/api/v1/beers/', beerRoutes);
 
   };
-  
+
 })(module.exports);
